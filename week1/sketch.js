@@ -2,14 +2,14 @@
 // this is the only part of the file you need to edit!
 
 const quotes = [
-  { text: "the intersection of programming, design, and art", source: "Scott" },
-  { text: "a chance for code to be wrong", source: "Sara" },
-  { text: "surprise, exploration, and aesthetic exploration", source: "Sally" },
-  { text: "process over results", source: "Sam" },
-  { text: "form over function", source: "Sean" },
-  { text: "iterative and experimental", source: "Scooby" },
-  { text: "a community of practice", source: "Seth" },
-  { text: "an opportunity to stick it to the man", source: "Shifty-eyed Susan" }
+  { text: "a tool for functional problem solving", source: "Ahmad Moussa" },
+  { text: "a medium for artistic and personal expression", source: "Laura Valtere" },
+  { text: "where programming is used as a tool for art or design", source: "Jack B. Du" },
+  { text: "unbound by commercial constraints [and] fueled by curiosity", source: "Patrik Hübner" },
+  { text: "based on discovery, variation, and exploration of mostly unexpected results", source: "Tim Rodenbroeker" },
+  { text: "expressive, interactive, and dynamic", source: "Okoye Ndidiamaka" },
+  { text: "both the creative universe and the logical universe", source: "Jun Wu" },
+  { text: "about experimentation, not functionality", source: "Maura Kelly" }
 ];
 // no need to edit anything below this line! 
 // if you have made an error, you can check your history to see what might have gone wrong
@@ -22,7 +22,7 @@ function setup() {
   // Seed with millis() so each page load gives a different quote.
   randomSeed(millis());
   textSize(32);
-  fill(10, 255, 10);
+  fill(236, 213, 188);
   // calls the function to pick a quote
   pickQuote();
 }
@@ -33,7 +33,7 @@ function pickQuote() {
 }
 
 function draw() {
-  background(255, 20, 250); // set the background color
+  background(0, 141, 136); // set the background color
   drawQuote();  // draw the quote on screen
 }
 
