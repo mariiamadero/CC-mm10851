@@ -63,9 +63,9 @@ function draw() {
         stroke(255, 255, 255);
         strokeWeight(10);
         noFill();
-        translate(width/2, height/2 + 120);
-        rect(0, 0, 700, 900);
-        rect(0, 0, -700, 900);
+        translate(width/2, height/2 + 125);
+        rect(0, 0, 600, 900);
+        rect(0, 0, -600, 900);
     pop();
 
     //ball
