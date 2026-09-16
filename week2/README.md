@@ -1,4 +1,5 @@
 # week2
+With each iteration, I wanted the user to be able to place the ball wherever they wished it to go. I initially wanted the ball to follow a specific path, but I think giving the user that freedom makes it more fun to see how the ball ends up. The ending result differed in this sense, but I think that for the most part, the code did what I wanted it to do.
 
 ## Getting Started
 
