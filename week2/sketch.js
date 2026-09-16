@@ -1,4 +1,5 @@
-
+let ballX = 80;
+let ballY = 345;
 
 function setup() {
     createCanvas(windowWidth, windowHeight);
@@ -19,7 +20,7 @@ function draw() {
         noStroke();
         fill(255, 255, 255);
         triangle(width - width/3, height/2, width - (-600), 600, width - 0, 0);
-        pop();
+    pop();
 
     // bg
     push();
@@ -71,21 +72,14 @@ function draw() {
     push();
        noStroke();
        fill(236, 255, 57);
-       ellipse(80, 345, 45, 45);
+       ellipse(ballX, ballY, 45, 45);
     pop();
 
 }
 
 function mousePressed() {
-
-
-
-
+    background(15, 64, 145);
+    ballX = mouseX;
+    ballY = mouseY;
 }
-    
-// function mousePressed() {
-    // xPos = random(0, width);
-   // yPos = random(0, height);
-   // randomX = random(0,width/2);
-   // console.log("xPos: " + xPos + ", yPos: " + yPos);
-// }
+
