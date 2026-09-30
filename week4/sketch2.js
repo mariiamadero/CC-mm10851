@@ -1,7 +1,7 @@
 let xSq; 
 let ySq; 
 let fullCanv = 0; 
-let mySeed = 49; 
+let mySeed = 12000; 
 let clickCount = 0; 
 let currentAngle = 0; 
 let doExport = false;
@@ -10,7 +10,7 @@ function setup() {
     createCanvas(576, 384); 
     colorMode(HSB); 
     angleMode(DEGREES); 
-    noiseSeed(49);
+    noiseSeed(12000);
     xSq = 95;
     ySq = 100; 
     frameRate(16); 
