@@ -1,7 +1,7 @@
 let fastSpeed = 2.5; 
 let slowSpeed = 0.2;     
 let easing = 0.08;      
-let lineWeight = 1.5;    
+let lineWeight = 1.8;    
 let ticksPerSecond = 60; 
 let maxTicksPerFrame = 2000; 
 
