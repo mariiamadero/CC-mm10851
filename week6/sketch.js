@@ -29,7 +29,7 @@ let nightPalettes = [
 // day palettes
 let dayPalettes = [
   // indigo periwinkle yellow oranges
-  ["#3d348b", "#7678ed", "#f7b801", "#f18701", "#f35b04", "#f25f5c"],
+  ["#3d348b", "#7678ed", "#f7b801", "#f18701", "#f35b04", ],
   // earhy 
   ["#6b2d1a", "#b5502e", "#d98a3d", "#7d8f4e", "#3e5c4a", "#2a4a5e"],
   // ocean blues coral 
@@ -92,6 +92,11 @@ function draw() {
 function startHour(seed) {
   currentSeed = seed;
   randomSeed(seed);  
+
+  // seeds right next to each other start with almost the same number, so throw a few away
+  for (let i = 0; i < 5; i++) {
+    random();
+  }
 
   // day or night decides both the palette set and  bg
   let h = hour();
