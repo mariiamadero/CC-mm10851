@@ -55,7 +55,7 @@ function draw(){
 
     randomSeed(mySeed); 
     fullCanv++;
-    
+    // seperate x and y into diff for loops
     for (let x = xSq / 2; x < width + xSq; x += xSq) { 
         for (let y = ySq / 2; y < height + ySq; y += ySq) {
 
