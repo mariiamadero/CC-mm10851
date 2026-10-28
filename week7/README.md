@@ -18,3 +18,5 @@ However, I ended up with a different approach. I found extra boxes in the Media 
 I also realized that the box and colors for the cheese frames were not working. I initially had them on the brown boxes, and I did not want to use the white box for that specific frame. Instead, I redesigned it entirely, where I changed the solid yellow color to an ombre red-pink background, and the circles of the cheese transformed into white bubbles floating up.
 
 ![five](./img/IMG_9704.jpeg)
+
+https://github.com/user-attachments/assets/18cc6461-1c35-4abb-bee9-4788a690f88c
