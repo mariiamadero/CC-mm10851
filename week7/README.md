@@ -13,6 +13,8 @@ My second box was a bit easier. I wanted to make it look like cheese, a cheese b
 
 ![four](./img/Screenshot%202026-10-27%20at%2011.56.18%20PM.png)
 
-![five](./img/IMG_9704.HEIC)
+However, I ended up with a different approach. I found extra boxes in the Media Commons room, and instead of fully constructing it, I used its flat side to help with the sides, including the ombre effect.
 
-![five](./img/IMG_9709.MOV)
+I also realized that the box and colors for the cheese frames were not working. I initially had them on the brown boxes, and I did not want to use the white box for that specific frame. Instead, I redesigned it entirely, where I changed the solid yellow color to an ombre red-pink background, and the circles of the cheese transformed into white bubbles floating up.
+
+![five](./img/IMG_9704.jpeg)
