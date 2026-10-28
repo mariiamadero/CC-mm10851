@@ -22,4 +22,3 @@ I also realized that the box and colors for the cheese frames were not working. 
 ![six](./img/Screenshot%202026-10-28%20at%203.39.51%20PM.png)
 
 ![seven](./img/IMG_9704.jpeg)
-
