@@ -124,7 +124,15 @@ function myDrawing3(mySketch) {
 
 function myDrawing4(mySketch) {
     // anything drawn on this surface needs 'mySketch.' in front of it
-    mySketch.background("#f6c945"); // cheese yellow
+
+    // gradient: draw 400 thin lines, one per row, each a slightly different color
+    for (let y = 0; y < 400; y++) {
+        let r = map(y, 0, 400, 200, 255); // red goes from 200 to 255
+        let g = map(y, 0, 400, 20, 150);  // green goes from 20 to 150
+        let b = map(y, 0, 400, 40, 190);  // blue goes from 40 to 190
+        mySketch.stroke(r, g, b);
+        mySketch.line(0, y, 400, y);
+    }
     mySketch.noStroke();
 
     // draw 20 holes, each one a little different
@@ -136,12 +144,9 @@ function myDrawing4(mySketch) {
         // size: noise() gives each hole its own size, between 20 and 70
         let s = 20 + noise(i * 3.7) * 50;
 
-        // a darker hole first
-        mySketch.fill("#d9a31f");
+        // white bubble
+        mySketch.fill(255);
         mySketch.ellipse(x, y, s);
-
-        mySketch.fill("#e8b630");
-        mySketch.ellipse(x + s * 0.08, y + s * 0.08, s * 0.8);
     }
 }
 
