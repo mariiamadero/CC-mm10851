@@ -1,0 +1,2 @@
+let mePic;
+let bambPic;

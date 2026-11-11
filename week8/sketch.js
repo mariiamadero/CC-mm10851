@@ -65,7 +65,7 @@ function draw() {
       let r = source.pixels[loc];
       let g = source.pixels[loc + 1];
       let b = source.pixels[loc + 2];
-      
+
       let bright = 0.299 * r + 0.587 * g + 0.114 * b;
 
       // The very first time we see this spot, start the delayed brightness at the real one
@@ -112,7 +112,7 @@ function draw() {
   // remember \n
     text("space: take a photo\nshift: back to live video\nenter: change effect\nclick: change colors\nbackspace: change background", 20, height - 20);
 }
-
+// add to take img here!! under space button 
 function keyPressed() {
   // space tks photo
   if (key === ' ') {
@@ -153,7 +153,7 @@ function keyPressed() {
   // go to the next palette, and wrap back to 0 after the last one in the list
   palette = (palette + 1) % palettes.length;
 
-  // grab the pair at this palette number
+  // grab pair at this palette number
   colorA = palettes[palette][0];
   colorB = palettes[palette][1];
 }
