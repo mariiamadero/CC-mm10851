@@ -101,7 +101,7 @@ function draw() {
   } else {
     dwellTimer = 0;
     lastChoice = -1;
-  }
+  } //addint boops ??? to selection
 
   // drink clsoe to mouth
   let drinking = false;

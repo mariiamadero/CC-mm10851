@@ -1,0 +1,5 @@
+This instrument is played with two hands in front of a webcam OR through the mousepad, since I wanted to give users the opportunity in selecting. With the webcam, the tip of my pointer finger chooses a note on a staff, and pinching my other hand plays it, so the shape of my hand movement becomes the shape of the melody and the length of my pinch becomes the length of the note. With the mouse, moving the cursor up and down over the staff chooses the note, and the note plays as long as the cursor is hovering over the staff, so moving the cursor off the staff ends it. Pressing M switches between the two.
+
+Each note makes a sound and leaves a glowing trail of dots at the same spot on the staff, so the sound and the visuals always match. I can record what I play and it loops back with my exact rhythm, and I can layer several loops, changing the pitch, speed and sound (soft pad or synth) of each one. 
+
+The qualities I capture are here are moreso with pitch, rhythm, note length, tone color and layering. Loudness is not touched on since I kept the volume fixed. 
